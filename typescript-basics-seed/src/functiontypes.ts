@@ -5,7 +5,7 @@ function sumOrder(price: number, quantity: number): number {
 }
 
 // so a different way to write this would be 
- let sumOrders = (price: number, quantity: number ): number => {
+ let sumOrders = (price: number, quantity: number ): any=> {
 
  }
  // so because the function is expecting two numbers we pass them into it here
@@ -21,5 +21,5 @@ console.log(`total sum: ${sum}`);
 // the ? makes things optional
 let sumOrderss: (price: number, quantity?: number): number => {
 
-}
+
 }
