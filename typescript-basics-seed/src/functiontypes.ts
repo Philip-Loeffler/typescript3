@@ -23,3 +23,10 @@ let sumOrderss: (price: number, quantity?: number): number => {
 
 
 }
+
+// haha
+function addthese(phil: number, brian: number): number {
+    return phil + brian;
+}
+    addthese(25, 2)
+    console.log(addthese)
